@@ -1,0 +1,12 @@
+{
+  "imoveis": [
+    {
+      "id": 1,
+      "endereco": "Rua dos Esquilos"
+    },
+    {
+      "id": 2,
+      "endereco": "Rua dos Jabutis"
+    }
+  ]
+}
