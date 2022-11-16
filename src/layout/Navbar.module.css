@@ -1,0 +1,37 @@
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items:  center;
+  padding: 1em 3em;
+  border-bottom: solid 1px rgb(198, 197, 197);
+  flex-wrap: wrap;
+  position: fixed;
+  z-index: 10;
+  background-color: rgb(44, 43, 43);
+}
+
+.container a img {
+  width: 90px;
+}
+
+.navbar{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  
+}
+
+.navbar li a{
+  margin-left: 3em;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  color: rgb(209, 209, 209);
+  transition: 0.2s;
+
+}
+
+.navbar li a:hover{
+  color: rgb(237, 170, 0);
+}

@@ -1,0 +1,20 @@
+
+.container{
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-height:1200px;
+  top:100px;
+  margin-bottom: 100px;
+  background-color: rgb(245, 244, 244);
+  margin: 0 auto;
+  padding: 6.5em 0 1em 0;
+}
+
+@media screen and (max-width: 668px){
+  .container{
+    padding: 9em 0 1em 0;
+  }
+  
+}
